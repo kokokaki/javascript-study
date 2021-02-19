@@ -12,3 +12,4 @@ else {
     console.log("불합격하셨습니다! ㅠㅠ");
 }
 console.log("수고하셨습니다!");
+
