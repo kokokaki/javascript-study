@@ -18,5 +18,6 @@ function addAll(name, ...numbers) {
     return total;
 }
 
+
 var results = addAll('고길동', 10, 20, 30, 40, 100);
 console.log(results);
