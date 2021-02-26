@@ -55,7 +55,8 @@ function compute(num) {
     if (num <= 1) return num;
     return compute(num - 1) + compute(num - 3);
 }
-compute(4);
+console.log(compute(4));
+
 
 
 //중첩 함수
