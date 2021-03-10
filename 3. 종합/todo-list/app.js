@@ -141,9 +141,10 @@ function removeToDoData($delTarget) {
     //2. 지우려면 ul노드랑 삭제대상 li의 노드를 받아야 함.
     $delTarget.classList.add('delMoving');
 
+    //비동기 실행을 위한 함수
     setTimeout(() => {
         document.querySelector('.todo-list').removeChild($delTarget);
-    }, 1400);
+    }, 1500);    
 
     const index = findIndexByDataId(+$delTarget.dataset.id);
     if (index != null) {

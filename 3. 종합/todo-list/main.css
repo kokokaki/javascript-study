@@ -31,7 +31,7 @@ input, button {
 /* layout */
 .wrapper {
     background: #e9ecef;    
-    padding: 6rem 0;
+    padding-top: 6rem;
     height: 100vh;
 }
 
